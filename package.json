@@ -1,5 +1,5 @@
 {
-  "homepage": "http://be234.github.io/gallery-test",
+  "homepage": "http://be234.github.io/free-gallery",
   "name": "firegram",
   "version": "0.1.0",
   "private": true,
@@ -13,7 +13,7 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
+    "pre-deploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -36,6 +36,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0"
+    "gh-pages": "^2.1.1"
   }
 }
